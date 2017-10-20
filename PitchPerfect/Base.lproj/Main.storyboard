@@ -17,7 +17,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FVs-p3-iyO">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FVs-p3-iyO">
                                 <rect key="frame" x="163" y="318" width="49" height="30"/>
                                 <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="15"/>
@@ -26,8 +26,8 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="FVs-p3-iyO" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="ef7-BT-EZG"/>
-                            <constraint firstItem="FVs-p3-iyO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="nLn-yj-ZKF"/>
+                            <constraint firstItem="FVs-p3-iyO" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="aGb-6X-M0E"/>
+                            <constraint firstItem="FVs-p3-iyO" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="vW7-MA-CDa"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
