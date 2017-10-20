@@ -17,21 +17,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ymT-oz-EKJ">
-                                <rect key="frame" x="97" y="450" width="180" height="56"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Stop recording"/>
-                                <connections>
-                                    <action selector="stopRecording:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HT4-hu-6LJ"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tap to record " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aCT-Bf-72q">
-                                <rect key="frame" x="108" y="403" width="169" height="39"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FVs-p3-iyO">
                                 <rect key="frame" x="162.5" y="328.5" width="49" height="30"/>
                                 <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -41,11 +26,29 @@
                                     <action selector="recordAudio:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QdP-cb-ZaC"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ymT-oz-EKJ">
+                                <rect key="frame" x="97" y="450" width="180" height="56"/>
+                                <state key="normal" title="Stop recording"/>
+                                <connections>
+                                    <action selector="stopRecording:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HT4-hu-6LJ"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Tap to record " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aCT-Bf-72q">
+                                <rect key="frame" x="108" y="391" width="169" height="39"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="ymT-oz-EKJ" firstAttribute="top" secondItem="aCT-Bf-72q" secondAttribute="bottom" constant="20" id="0j1-8e-49j"/>
+                            <constraint firstItem="ymT-oz-EKJ" firstAttribute="centerX" secondItem="aCT-Bf-72q" secondAttribute="centerX" id="12B-6a-moP"/>
                             <constraint firstItem="FVs-p3-iyO" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="aGb-6X-M0E"/>
+                            <constraint firstItem="aCT-Bf-72q" firstAttribute="top" secondItem="FVs-p3-iyO" secondAttribute="bottom" constant="32.5" id="hQx-20-wbf"/>
                             <constraint firstItem="FVs-p3-iyO" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="vW7-MA-CDa"/>
+                            <constraint firstItem="aCT-Bf-72q" firstAttribute="centerX" secondItem="FVs-p3-iyO" secondAttribute="centerX" id="xdP-Lf-Nbc"/>
+                            <constraint firstItem="aCT-Bf-72q" firstAttribute="top" secondItem="FVs-p3-iyO" secondAttribute="bottom" constant="32.5" id="zJL-Wx-ekR"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
