@@ -24,9 +24,9 @@
                                     <action selector="recordAudio:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QdP-cb-ZaC"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ymT-oz-EKJ">
-                                <rect key="frame" x="136" y="494" width="102" height="30"/>
-                                <state key="normal" title="Stop recording"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ymT-oz-EKJ">
+                                <rect key="frame" x="110" y="494" width="155" height="155"/>
+                                <state key="normal" image="Stop"/>
                                 <connections>
                                     <action selector="stopRecording:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HT4-hu-6LJ"/>
                                 </connections>
@@ -63,5 +63,6 @@
     </scenes>
     <resources>
         <image name="Record" width="155" height="155"/>
+        <image name="Stop" width="155" height="155"/>
     </resources>
 </document>
