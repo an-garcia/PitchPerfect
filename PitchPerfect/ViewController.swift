@@ -18,11 +18,13 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        stopRecording.isEnabled = false
     }
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         print("Inside viewWillAppear func")
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -31,13 +33,18 @@ class ViewController: UIViewController {
     }
 
     @IBAction func recordAudio(_ sender: Any) {
-        print("Audio button pressed")
+        //print("Audio button pressed")
         recordingLabel.text = "Recording in progress..."
+        stopRecording.isEnabled = true
+        recordingButton.isEnabled = false
+        // TODO: Figure out why it doesn't get dissabled.
     }
     
     @IBAction func stopRecording(_ sender: Any) {
-        print("Stop recording button pressed")
+        //print("Stop recording button pressed")
         recordingLabel.text = "Tap to record"
+        stopRecording.isEnabled = false
+        recordingButton.isEnabled = true
     }
 }
 
