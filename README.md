@@ -2,7 +2,6 @@
 
 
 ![Scheme](/screenshots/SimulatorScreenShot-iPhone8Plus-2017-10-27at14.38.12.png)
-
 ![Scheme](/screenshots/SimulatorScreenShot-iPhone8Plus-2017-10-27at14.38.21.png)
 
 
