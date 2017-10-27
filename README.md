@@ -1,8 +1,8 @@
 # PitchPerfect
 
 
-![Scheme](/screenshots/Simulator Screen Shot - iPhone 8 Plus - 2017-10-27 at 14.38.12.png)
-![Scheme](/screenshots/Simulator Screen Shot - iPhone 8 Plus - 2017-10-27 at 14.38.21.png)
+![Scheme](/screenshots/SimulatorScreenShot-iPhone8Plus-2017-10-27at14.38.12.png)
+![Scheme](/screenshots/SimulatorScreenShot-iPhone8Plus-2017-10-27at14.38.21.png)
 
 
 PitchPerfect is an iOS sample application that records audio and play it back using different sound effects.
